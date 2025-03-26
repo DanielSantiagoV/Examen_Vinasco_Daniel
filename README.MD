@@ -12,7 +12,7 @@ detallados sobre la industria musical.
 ----------------------------------------------
 📂 ESTRUCTURA DEL PROYECTO
 ----------------------------------------------
-LimeWire/
+Examen_Vinasco_Daniel/
 │── data/                     -> Archivos JSON con la información del sistema
 │   ├── artistas.json         -> Datos de artistas musicales
 │   ├── paises.json           -> Datos de países
@@ -59,5 +59,8 @@ LimeWire/
 ----------------------------------------------
 ✔ Python 3.x
 ✔ Librerías estándar (`json`, `os`, `datetime`)
+
+----------------------------------------------
+✅ Elaborado por : Daniel Santiago 
 
 ----------------------------------------------
