@@ -4,13 +4,13 @@
 🎵 LimeWire - Gestión de Artistas Musicales 🎵
 ==============================================
 
-📌 DESCRIPCIÓN:
+## 📌 DESCRIPCIÓN:
 LimeWire es un sistema de gestión que permite administrar información de 
 artistas musicales, países y géneros musicales, además de generar informes 
 detallados sobre la industria musical.
 
 ----------------------------------------------
-📂 ESTRUCTURA DEL PROYECTO
+## 📂 ESTRUCTURA DEL PROYECTO
 ----------------------------------------------
 Examen_Vinasco_Daniel/
 │── data/                     -> Archivos JSON con la información del sistema
@@ -27,21 +27,21 @@ Examen_Vinasco_Daniel/
 │── README.txt                -> Documentación del proyecto
 
 ----------------------------------------------
-🛠 FUNCIONALIDADES
+## 🛠 FUNCIONALIDADES
 ----------------------------------------------
-🎤 GESTIÓN DE ARTISTAS:
+## 🎤 GESTIÓN DE ARTISTAS:
 ✔ Agregar, mostrar, editar y eliminar artistas musicales.
 ✔ Información detallada: país, género, unidades vendidas, estado activo.
 
-🌍 GESTIÓN DE PAÍSES:
+## 🌍 GESTIÓN DE PAÍSES:
 ✔ Registro de países con códigos ISO y ISO3.
 ✔ Modificar y eliminar países registrados.
 
-🎼 GESTIÓN DE GÉNEROS MUSICALES:
+## 🎼 GESTIÓN DE GÉNEROS MUSICALES:
 ✔ Registrar nuevos géneros musicales.
 ✔ Modificar y eliminar géneros existentes.
 
-📊 REPORTES E INFORMES:
+## 📊 REPORTES E INFORMES:
 ✔ Obtener artistas por país y periodo de tiempo.
 ✔ Listar artistas por género musical.
 ✔ Reporte de artistas activos en los últimos 10 años.
@@ -55,12 +55,12 @@ Examen_Vinasco_Daniel/
     python main.py
 
 ----------------------------------------------
-📌 REQUISITOS
+## 📌 REQUISITOS
 ----------------------------------------------
 ✔ Python 3.x
 ✔ Librerías estándar (`json`, `os`, `datetime`)
 
 ----------------------------------------------
-✅ Elaborado por : Daniel Santiago 
+## 📄 Creado Por: : Daniel Santiago 
 
 ----------------------------------------------
