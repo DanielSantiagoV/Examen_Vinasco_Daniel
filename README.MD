@@ -116,10 +116,4 @@ Este Proyecto fue desarrollado por ***Daniel Santiago Vinasco***
 ✔ **🎨 Estética profesional** con emojis y formato Markdown limpio.  
 
 ---
-
-🔥 **¡Github: https://github.com/DanielSantiagoV?tab=repositories ! 🚀**
-
-
-
-
 ----------------------------------------------
