@@ -1,66 +1,125 @@
+# 🎵 Sistema de Gestión de Artistas Musicales
+
+Este es un sistema desarrollado en Python para gestionar información sobre artistas musicales, países y géneros, con generación de informes detallados.
+
+## 🌟 Características Principales
+
+### 🎤 Gestión de Artistas
+- Registro completo de artistas musicales.
+- Almacenamiento de información detallada:
+  - Nombre del artista
+  - País de origen
+  - Género musical
+  - Año de debut
+  - Álbumes y certificaciones
+- Funcionalidades:
+  - Agregar, editar y eliminar artistas.
+  - Listado detallado de artistas registrados.
+
+### 🌍 Gestión de Países
+- Registro de países de origen de los artistas.
+- Funcionalidades:
+  - Agregar, editar y eliminar países.
+  - Mostrar todos los países registrados.
+
+### 🎸 Gestión de Géneros Musicales
+- Registro de géneros musicales asociados a los artistas.
+- Funcionalidades:
+  - Agregar, editar y eliminar géneros.
+  - Mostrar géneros disponibles.
+
+### 📊 Reportes y Consultas
+- **Artistas activos en los últimos 10 años**.
+- **Artistas por país y rango de tiempo** (ejemplo: artistas de Reino Unido entre 1960-1970).
+- **Número de artistas por género musical** (ejemplo: Rock/Pop).
+- Datos organizados en informes claros y estructurados.
+
+## 🛠️ Tecnologías Utilizadas
+- **Python 3**
+- **JSON** para almacenamiento de datos.
 
 
-==============================================
-🎵 LimeWire - Gestión de Artistas Musicales 🎵
-==============================================
+## 📋 Requisitos
+- Python 3.6 o superior.
 
-## 📌 DESCRIPCIÓN:
-LimeWire es un sistema de gestión que permite administrar información de 
-artistas musicales, países y géneros musicales, además de generar informes 
-detallados sobre la industria musical.
 
-----------------------------------------------
-## 📂 ESTRUCTURA DEL PROYECTO
-----------------------------------------------
-Examen_Vinasco_Daniel/
-│── data/                     -> Archivos JSON con la información del sistema
-│   ├── artistas.json         -> Datos de artistas musicales
-│   ├── paises.json           -> Datos de países
-│   ├── generos.json          -> Datos de géneros musicales
-│── modulos/                  -> Código modularizado
-│   ├── artistas.py           -> Gestión de artistas
-│   ├── paises.py             -> Gestión de países
-│   ├── generos.py            -> Gestión de géneros musicales
-│   ├── reportes.py           -> Generación de informes
-│   ├── archivo_json.py       -> Funciones para manejar archivos JSON
-│── main.py                   -> Archivo principal de ejecución
-│── README.txt                -> Documentación del proyecto
+## 🚀 Instalación y Uso
+1. Clona el repositorio
+    `git clone https://github.com/usuario/Examen_Python_VinascoDaniel.git`
+2. Instala las dependencias: `pip install -r requirements.txt`
+3. Ejecuta el programa: `python main.py`
 
-----------------------------------------------
-## 🛠 FUNCIONALIDADES
-----------------------------------------------
-## 🎤 GESTIÓN DE ARTISTAS:
-✔ Agregar, mostrar, editar y eliminar artistas musicales.
-✔ Información detallada: país, género, unidades vendidas, estado activo.
+## 📁 Estructura del Proyecto
+```
+Examen_Python_VinascoDaniel/
+├── main.py
+├── modulos/
+│   ├── artistas.py
+│   ├── paises.py
+│   ├── generos.py
+│   ├── reportes.py
+│   ├── archivo_json.py
+└── datos/
+    ├── artistas.json
+    ├── paises.json
+    ├── generos.json
+```
 
-## 🌍 GESTIÓN DE PAÍSES:
-✔ Registro de países con códigos ISO y ISO3.
-✔ Modificar y eliminar países registrados.
+## 🗄️ Estructura de los Datos
 
-## 🎼 GESTIÓN DE GÉNEROS MUSICALES:
-✔ Registrar nuevos géneros musicales.
-✔ Modificar y eliminar géneros existentes.
+### 📌 Artistas
+```json
+{
+  "nombre": "The Beatles",
+  "pais": "United Kingdom",
+  "genero": "Rock",
+  "anio_debut": 1960,
+  "albumes": [
+    {"titulo": "Abbey Road", "certificaciones": "Multi-Platino"}
+  ]
+}
 
-## 📊 REPORTES E INFORMES:
-✔ Obtener artistas por país y periodo de tiempo.
-✔ Listar artistas por género musical.
-✔ Reporte de artistas activos en los últimos 10 años.
-✔ Contar número de artistas por año de lanzamiento.
-✔ Unidades certificadas totales en 2023.
+```
 
-----------------------------------------------
-🚀 INSTALACIÓN Y EJECUCIÓN
-----------------------------------------------
-1. Ejecutar el programa:
-    python main.py
+### 🌎 Paises
+```json
+{
+  "nombre": "United Kingdom",
+  "codigo": "UK"
+}
 
-----------------------------------------------
-## 📌 REQUISITOS
-----------------------------------------------
-✔ Python 3.x
-✔ Librerías estándar (`json`, `os`, `datetime`)
+```
 
-----------------------------------------------
-## 📄 Creado Por: : Daniel Santiago 
+### 🎼 Géneros Musicales
+```json
+{
+  "nombre": "Rock",
+  "descripcion": "Género de música popular con raíces en el rock and roll"
+}
+
+``````
+### 📄 Creado Por:
+Este Proyecto fue desarrollado por ***Daniel Santiago Vinasco*** 
+
+-------------------------------------------------------
+
+
+---
+
+### ✅ **¿Qué incluye este README?**
+✔ **📋 Características** detalladas del sistema.  
+✔ **📁 Estructura del proyecto** clara y bien organizada.  
+✔ **🖥️ Código del menú principal** para referencia.  
+✔ **📊 Reportes y funciones clave** del sistema.  
+✔ **💾 Estructura de los JSON** con ejemplos.  
+✔ **🚀 Instalación y uso** paso a paso.  
+✔ **🎨 Estética profesional** con emojis y formato Markdown limpio.  
+
+---
+
+🔥 **¡Github: https://github.com/DanielSantiagoV?tab=repositories ! 🚀**
+
+
+
 
 ----------------------------------------------
